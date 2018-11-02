@@ -4,6 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
+
+                if(true) {
+                    echo 'YES TRUE'
+                }
             }
         }
         stage('Test') {
